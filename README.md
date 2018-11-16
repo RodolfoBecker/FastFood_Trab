@@ -26,14 +26,14 @@ As seguintes implementações estão listadas para futuras atualizações
 * Maikon Pastor - maikon.pastor@edu.unipar.br
 * Eduardo Sobrinho - eduardo.sobrinho@edu.unipar.br
 
-* MESAS/PEDIDO
+## MESAS/PEDIDO
  - Numeração
  - adicionar pedido e muda status para ocupado e adicionar valor em cada mesa
  - fecha conta p/ pagamento abre tela caixa e se confirmado o pagamento, automaticamente libera mesa
  - remove pedido adicionado
 
 
-* Parcelas
+## Parcelas
  - Soma valor total
  - imprime produtos pedidos com valor individual
  - na impressao mostra valor total
@@ -41,7 +41,7 @@ As seguintes implementações estão listadas para futuras atualizações
  - cancelamento do processo
  - ao executar o pagamento lança valor no caixa
 
-* Produtos
+## Produtos
  - Tela de cadastro de produtos com nome
  - tipo de estoque
  - quantidade de estoque

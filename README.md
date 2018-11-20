@@ -7,7 +7,7 @@ A ideia aqui é ter um sistema que controle e gerencie as seguintes facetas do n
 * Mesas
 * Pedidos
 * Estoque
-* Cadastro de produtos
+* (Front✔) Cadastro de produtos
 * Caixa
 * (Front✔) Fornecedores
 * (Front✔) Colaboradores

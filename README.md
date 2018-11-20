@@ -43,7 +43,12 @@ As seguintes implementações estão listadas para futuras atualizações
  - ao executar o pagamento lança valor no caixa
 
 ## Produtos
- - Tela de cadastro de produtos com nome
- - tipo de estoque
- - quantidade de estoque
-
+ - Nome do produto
+ - Tipo de produto
+ - Quantidade disponível
+ 
+ ## Estoque
+ - Listagem de produtos no estoque
+ - (DLC) Listagem de ingredientes por produto
+ - (DLC) Estoque com redundância entre ingrediente x produto
+ 

@@ -2,22 +2,23 @@ package Controller;
 
 import FastFood.Index;
 import Infra.ConnectionFactory;
-import java.net.URL;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import java.util.ResourceBundle;
+import javafx.application.Application;
 import javafx.fxml.FXML;
-import javafx.fxml.Initializable;
+import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.StackPane;
+import javafx.stage.Stage;
 
 /**
  *
  * @author Eduardo
  */
-public class LoginController implements Initializable {
+public class LoginController extends Application  {
 
     @FXML
     private TextField campoUsuario;
@@ -44,16 +45,22 @@ public class LoginController implements Initializable {
     }
 
     @Override
-    public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+    public void start(Stage palco) throws Exception { 
+        StackPane raiz = new StackPane();
+
+        Scene cena = new Scene(raiz, 250, 100);
+        palco.setTitle("Aprendendo JavaFX");
+        palco.setScene(cena);
+        palco.show();
+
     }
 
     public boolean validaLogin(String usuario, int senha) throws Exception {
         try {
             String sql = "SELECT COUNT(cod_colaborador) "
-                         + "FROM Colaboradores "
-                        + "WHERE Usuario = ? "
-                          + "AND Senha = ?";
+                    + "FROM Colaboradores "
+                    + "WHERE Usuario = ? "
+                    + "AND Senha = ?";
 
             con = ConnectionFactory.conectaBanco();
 

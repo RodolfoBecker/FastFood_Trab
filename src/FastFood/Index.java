@@ -24,6 +24,7 @@ public class Index extends Application {
         
         stage = mainStage;
         stage.setScene(scene);
+        stage.setTitle("VivarFeliz ♥");
         stage.show();
     }
     

@@ -7,10 +7,10 @@ A ideia aqui é ter um sistema que controle e gerencie as seguintes facetas do n
 * Mesas
 * Pedidos
 * Estoque
-* (Front✔) Cadastro de produtos
+* Cadastro de produtos (Front:✔ | Back: | Test:)
 * Caixa
-* (Front✔) Fornecedores
-* (Front✔) Colaboradores
+* Fornecedores (Front:✔ | Back: | Test:)
+* Colaboradores (Front:✔ | Back: | Test:)
 
 ## Implementações futuras
 O desenvolvimento do sistema será para ambiente desktop, dessa forma o uso é orientado a hotkeys. Sendo assim, optou-se por uma experiência voltada ao uso do teclado e a inserção de comandos. Os elementos que compoem a interface são meramente assistenciais, visando o uso ocasional ou emergencial (de pessoas que não conhecem os atalhos do sistema).

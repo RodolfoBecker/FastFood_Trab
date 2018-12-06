@@ -1,5 +1,11 @@
 # FastFood_Trab
 ### UNIPAR - Universidade Parananese - Tecnologia em Análise e Desenvolvimento de Sistemas
+## Participantes
+ - Eduardo Sobrinho
+ - Guilherme Leme
+ - Maikon Pastor
+ - Rodolfo Backer
+ 
 ## Descrição
 Sistema de MINI CONTROLE de Restaurante Fast-Food.
 A ideia aqui é ter um sistema que controle e gerencie as seguintes facetas do negócio:

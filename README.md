@@ -1,11 +1,12 @@
 # FastFood_Trab
 ### UNIPAR - Universidade Parananese - Tecnologia em Análise e Desenvolvimento de Sistemas
-## Participantes
- - Eduardo Sobrinho
- - Guilherme Leme
- - Maikon Pastor
- - Rodolfo Backer
- 
+
+## Colaboradores
+* Guilherme Leme - guilherme.leme@edu.unipar.br
+* Rodolfo Becker - rodolfo.becker@edu.unipar.br
+* Maikon Pastor - maikon.pastor@edu.unipar.br
+* Eduardo Sobrinho - eduardo.sobrinho@edu.unipar.br
+
 ## Descrição
 Sistema de MINI CONTROLE de Restaurante Fast-Food.
 A ideia aqui é ter um sistema que controle e gerencie as seguintes facetas do negócio:
@@ -26,12 +27,6 @@ As seguintes implementações estão listadas para futuras atualizações
 * (DLC) Pesquisa dinâmica
 * (DLC) Interface Web
 * (DLC) Interface Mobile (PWA)
-
-## Colaboradores
-* Guilherme Leme - guilherme.leme@edu.unipar.br
-* Rodolfo Becker - rodolfo.becker@edu.unipar.br
-* Maikon Pastor - maikon.pastor@edu.unipar.br
-* Eduardo Sobrinho - eduardo.sobrinho@edu.unipar.br
 
 ## MESAS/PEDIDO
  - Numeração

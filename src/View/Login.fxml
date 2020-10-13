@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="350.0" spacing="8.0" style="-fx-background-color: #ddd;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.LoginController">
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="titulo" text="Autenticação">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="16.0" />
+         </VBox.margin>
+      </Text>
+      <Label text="Nome de Usuario" />
+      <TextField fx:id="campoUsuario" />
+      <Label text="Senha" />
+      <PasswordField fx:id="campoSenha" />
+      <Label fx:id="mensagem" text="Usuario ou senha incorretos!" textFill="RED" visible="false">
+         <VBox.margin>
+            <Insets bottom="8.0" />
+         </VBox.margin>
+      </Label>
+      <Button defaultButton="true" mnemonicParsing="false" onAction="#botaoEntrarOnAction" text="Entrar" />
+   </children>
+   <padding>
+      <Insets bottom="16.0" left="16.0" right="16.0" top="16.0" />
+   </padding>
+</VBox>
